@@ -6,14 +6,14 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/Date')
 def home():
-    return render_template('MovieTitles.html')
+    return render_template('DateTime.html')
 
 
-@app.route("/Receipt")
+@app.route("/Snacks")
 def receipt():
-    return render_template('Receipt.html')
+    return render_template('Snacks.html')
 
 
 if __name__ == '__main__':
